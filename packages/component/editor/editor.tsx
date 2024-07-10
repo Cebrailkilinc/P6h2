@@ -251,6 +251,10 @@ const Editor: React.FC<EditorProps> = ({ data, config, onChange }) => {
           onKeyUp={updateActiveStyles}
         ></div>
       </div>
+      <div className='flex items-center justify-end py-5' >
+        <Button variant={'thirty'} >Send</Button>
+      </div>
+
     </div>
   );
 };
